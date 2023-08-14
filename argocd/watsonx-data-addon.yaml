@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./envs/odf/watsonx
+    path: ./envs/odf/watsonx-addon
     targetRevision: 'HEAD'
     repoURL: https://github.com/thomas-mattsson/cp4d-watsonx-gitops.git
   syncPolicy:
