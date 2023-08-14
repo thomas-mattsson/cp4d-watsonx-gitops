@@ -1,0 +1,8 @@
+apiVersion: watsonxdata.ibm.com/v1
+kind: WxdAddon
+metadata:
+  name: wxdaddon
+spec:
+  fileStorageClass: ocs-storagecluster-cephfs
+  blockStorageClass: ocs-storagecluster-ceph-rbd
+  

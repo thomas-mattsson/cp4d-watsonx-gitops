@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: watsonx-data-instance
+  name: watsonx-data-addon
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: "100"

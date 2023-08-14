@@ -8,4 +8,4 @@ resources:
   - cp4d-control-plane.yaml
   - common-core-operator.yaml
   - watsonx-data-operator.yaml
-
+  - watsonx-data-addon.yaml

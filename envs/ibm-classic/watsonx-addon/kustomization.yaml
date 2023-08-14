@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+components:
+- ../../../components/cp4d/watsonx/addon/variants/storage/ibm-classic
+
+resources:
+- ../../../components/cp4d/watsonx/addon/base
