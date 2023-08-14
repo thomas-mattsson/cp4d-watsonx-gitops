@@ -6,6 +6,6 @@ metadata:
 spec:
   channel: v1.0
   installPlanApproval: Automatic
-  name: watsonx-data
+  name: ibm-lakehouse
   source: ibm-operator-catalog
   sourceNamespace: openshift-marketplace
