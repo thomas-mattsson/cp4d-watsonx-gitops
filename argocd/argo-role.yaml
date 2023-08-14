@@ -27,3 +27,9 @@ rules:
       - watsonxdata.ibm.com
     resources:
       - wxdaddons
+  - verbs:
+      - '*'
+    apiGroups:
+      - operator.ibm.com
+    resources:
+      - commonservices
