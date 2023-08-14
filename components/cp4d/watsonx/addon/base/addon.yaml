@@ -2,11 +2,10 @@ apiVersion: watsonxdata.ibm.com/v1
 kind: WxdAddon
 metadata:
   name: wxdaddon
-  namespace: cp4d
 spec:
   license:
     accept: true
     license: Enterprise
-  fileStorageClass: filestorage
-  blockStorageClass: blockstorage
+  fileStorageClass: PATCHED_BY_KUSTOMIZE
+  blockStorageClass: PATCHED_BY_KUSTOMIZE
   version: 1.0.1
