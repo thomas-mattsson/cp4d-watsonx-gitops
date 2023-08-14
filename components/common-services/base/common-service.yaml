@@ -4,3 +4,5 @@ metadata:
   name: common-service
 spec:
   size: small
+  operatorNamespace: openshift-operators
+  servicesNamespace: cp4d

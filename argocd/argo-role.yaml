@@ -33,3 +33,4 @@ rules:
       - operator.ibm.com
     resources:
       - commonservices
+      - namespacescopes

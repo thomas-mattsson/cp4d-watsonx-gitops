@@ -1,0 +1,12 @@
+apiVersion: operator.ibm.com/v1
+kind: NamespaceScope
+metadata:
+  name: common-service
+spec:
+  csvInjector:
+    enable: true
+  namespaceMembers:
+    - openshift-operators
+    - cp4d
+  restartLabels:
+    intent: projected
