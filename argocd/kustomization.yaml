@@ -4,8 +4,9 @@ kind: Kustomization
 resources:
   - argo-role.yaml
   - argo-rb.yaml
+  - common-services.yaml
+  - common-core-operator.yaml
   - cp4d-operator.yaml
   - cp4d-control-plane.yaml
-  - common-core-operator.yaml
   - watsonx-data-operator.yaml
   - watsonx-data-addon.yaml
