@@ -21,4 +21,9 @@ rules:
       - cpd.ibm.com
     resources:
       - ibmcpds
-
+  - verbs:
+      - '*'
+    apiGroups:
+      - watsonxdata.ibm.com
+    resources:
+      - wxdaddons
