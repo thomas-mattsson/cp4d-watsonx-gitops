@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - catalog-source.yaml
   - subscription.yaml
+  - cm-namespace-scope.yaml
