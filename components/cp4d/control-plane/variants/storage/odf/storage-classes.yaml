@@ -1,0 +1,8 @@
+apiVersion: cpd.ibm.com/v1
+kind: Ibmcpd
+metadata:
+  name: ibmcpd-cr                                                       
+spec:
+  storageClass: ocs-storagecluster-cephfs
+  zenCoreMetadbStorageClass: ocs-storagecluster-ceph-rbd
+  

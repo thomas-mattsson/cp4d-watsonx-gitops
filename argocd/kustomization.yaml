@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - argo-role.yaml
+  - argo-rb.yaml
+  - cp4d-operator.yaml
+  - cp4d-control-plane.yaml
+  - common-core-operator.yaml
+  - watsonx-data-operator.yaml
+

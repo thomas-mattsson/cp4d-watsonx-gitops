@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: ibm-cp4d
+spec:
+  channel: v4.1
+  installPlanApproval: Automatic
+  name: cpd-platform-operator
+  source: ibm-operator-catalog
+  sourceNamespace: openshift-marketplace

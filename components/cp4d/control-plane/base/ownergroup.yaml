@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: cp4d
+  namespace: cp4d
+spec:
+  targetNamespaces:
+    - cp4d
