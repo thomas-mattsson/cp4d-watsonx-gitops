@@ -18,5 +18,5 @@ spec:
     repoURL: https://github.com/thomas-mattsson/cp4d-watsonx-gitops.git
   syncPolicy:
     automated:
-      prune: true
+      prune: false
       selfHeal: true
