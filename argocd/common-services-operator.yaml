@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./components/common-services/operators/base
+    path: ./components/common-services/operator/base
     targetRevision: 'HEAD'
     repoURL: https://github.com/thomas-mattsson/cp4d-watsonx-gitops.git
   syncPolicy:
