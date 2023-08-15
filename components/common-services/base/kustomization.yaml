@@ -3,4 +3,3 @@ kind: Kustomization
 
 resources:
   - common-service.yaml
-  - namespacescope.yaml

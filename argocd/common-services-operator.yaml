@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cpd-scheduler-operator
+  name: common-services-operator
   namespace: openshift-gitops
   annotations:
-    argocd.argoproj.io/sync-wave: "20"
+    argocd.argoproj.io/sync-wave: "30"
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./components/shared/cpd-scheduler/operator/base
+    path: ./components/common-services/operators/base
     targetRevision: 'HEAD'
     repoURL: https://github.com/thomas-mattsson/cp4d-watsonx-gitops.git
   syncPolicy:

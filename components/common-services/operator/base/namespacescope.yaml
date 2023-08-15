@@ -6,7 +6,10 @@ spec:
   csvInjector:
     enable: true
   namespaceMembers:
-    - openshift-operators
+    - cp4d-operators
     - cp4d
   restartLabels:
     intent: projected
+  license:
+    accept: true
+  

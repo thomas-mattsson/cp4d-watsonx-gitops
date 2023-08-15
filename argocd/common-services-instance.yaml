@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: common-services
+  name: common-service
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: "30"
@@ -9,7 +9,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: openshift-operators
+    namespace: cp4d-operators
     server: https://kubernetes.default.svc
   project: default
   source:

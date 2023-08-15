@@ -15,7 +15,7 @@ spec:
     path: 'components/cp4d/common-core/operator/base'
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: 'openshift-operators'
+    namespace: cp4d-operators
   syncPolicy:
     automated:
       selfHeal: true
