@@ -1,0 +1,12 @@
+apiVersion: scheduler.spectrumcomputing.ibm.com/v1
+kind: Scheduling
+metadata:
+  labels:
+    release: cpd-scheduler
+  name: ibm-cpd-scheduler
+  namespace: cpd-scheduler
+spec:
+  version: 1.14.0
+  license:
+    accept: true
+  registry: cp.icr.io/cp/cpd

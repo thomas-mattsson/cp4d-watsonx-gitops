@@ -4,6 +4,9 @@ kind: Kustomization
 resources:
   - argo-role.yaml
   - argo-rb.yaml
+  - cert-manager.yaml
+  - licensing.yaml
+  - cpd-scheduler.yaml
   - common-services.yaml
   - common-core-operator.yaml
   - cp4d-operator.yaml
