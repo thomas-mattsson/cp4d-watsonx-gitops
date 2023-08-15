@@ -10,7 +10,7 @@ resources:
   - cpd-scheduler-instance.yaml
   - common-services-operator.yaml
   - common-services-instance.yaml
-  - common-core-operator.yaml
+  #- common-core-operator.yaml
   - cp4d-operator.yaml
   - cp4d-control-plane.yaml
   - watsonx-data-operator.yaml
