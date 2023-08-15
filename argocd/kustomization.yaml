@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - argo-role.yaml
   - argo-rb.yaml
-  - cert-manager.yaml
+  - ibm-cert-manager.yaml
   - licensing.yaml
   - cpd-scheduler-operator.yaml
   - cpd-scheduler-instance.yaml
