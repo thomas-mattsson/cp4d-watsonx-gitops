@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
   - namespaces.yaml
-  - namespacescope.yaml
   - nss-role.yaml
   - nss-rolebinding.yaml
   - operator-group.yaml
