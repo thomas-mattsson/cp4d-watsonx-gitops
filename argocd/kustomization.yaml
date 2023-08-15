@@ -7,7 +7,7 @@ resources:
   - cert-manager.yaml
   - licensing.yaml
   - cpd-scheduler-operator.yaml
-  - cpd-scheduler.yaml
+  - cpd-scheduler-instance.yaml
   - common-services.yaml
   - common-core-operator.yaml
   - cp4d-operator.yaml
