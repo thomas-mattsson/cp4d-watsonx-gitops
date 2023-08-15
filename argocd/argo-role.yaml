@@ -34,3 +34,9 @@ rules:
     resources:
       - commonservices
       - namespacescopes
+  - verbs:
+      - '*'
+    apiGroups:
+      - scheduler.spectrumcomputing.ibm.com
+    resources:
+      - scheduling
