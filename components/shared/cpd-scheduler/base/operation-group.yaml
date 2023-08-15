@@ -1,7 +1,7 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  name: ibm-cert-manager-operator
+  name: cpd-scheduler
   namespace: cpd-scheduler
 spec:
   targetNamespaces:
